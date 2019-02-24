@@ -1,0 +1,41 @@
+{
+  "name": "@personaspace/server-acl-middleware-types",
+  "version": "0.1.0",
+  "description": "A collection of types for Node.js server ACL middleware",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "./lib/**/*",
+    "./types/**/*"
+  ],
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "format": "tslint src/**/*.ts --fix",
+    "build": "npm run lint && tsc",
+    "docs": "typedoc --out docs --mode file --theme minimal src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/personaspace/node-server-acl-middleware-types.git"
+  },
+  "keywords": [
+    "PersonaSpace",
+    "ACL",
+    "node",
+    "server",
+    "middleware"
+  ],
+  "author": "Eric L. Bentley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/personaspace/node-server-acl-middleware-types/issues"
+  },
+  "homepage": "https://github.com/personaspace/node-server-acl-middleware-types#readme",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^11.9.5"
+  }
+}
