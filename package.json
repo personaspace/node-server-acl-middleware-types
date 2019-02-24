@@ -1,6 +1,6 @@
 {
   "name": "@personaspace/server-acl-middleware-types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A collection of types for Node.js server ACL middleware",
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
