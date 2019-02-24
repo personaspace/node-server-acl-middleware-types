@@ -63,3 +63,4 @@ typings/
 _build/
 coverage/
 lib/
+types/
